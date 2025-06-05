@@ -108,3 +108,13 @@ for (let i = 0; i < pets.length; i++) {
 }
 
 console.log('LA SOMMA DELLE ETÀ È', somma) // 49.5
+
+if (pets[3].age < 50) {
+  // queste righe di codice verranno eseguite solamente se l'età di Crokky è < 50
+  console.log('Crokky ha meno di 50 anni')
+} else if (pets[3].age < 60) {
+  // delimita delle righe di codice che vengono eseguite solamente se la condizione
+  // iniziale NON È VERA (è falsa!) e invece è vera la seconda condizione
+} else {
+  // se finiamo qui vuol dire che Crokky ha un'età >= 60
+}
